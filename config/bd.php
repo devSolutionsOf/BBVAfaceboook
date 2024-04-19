@@ -1,9 +1,9 @@
 <?php
 class ConexionBD {
-    private $servername = "localhost"; // Cambia localhost por tu servidor si es diferente
-    private $username = "root";
-    private $password = "";
-    private $dbname = "facebook";
+    private $servername = "tsmx-palacedq-dev.cp18xf4sbosj.us-west-2.rds.amazonaws.com"; // Cambia localhost por tu servidor si es diferente
+    private $username = "admin";
+    private $password = "yZq4FgmGz7re9Jie3HXA";
+    private $dbname = "UsuariosTest";
     public $conn;
 
     // Constructor: se conecta automáticamente cuando se instancia la clase
